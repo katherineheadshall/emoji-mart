@@ -1,16 +1,16 @@
 {
-  "name": "@emoji-mart/monorepo",
+  "name": "@katherineheadshall/emoji-mart-monorepo",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "dev": "yarn workspace @emoji-mart/website dev",
-    "build": "yarn workspace emoji-mart build",
-    "build:data": "yarn workspace @emoji-mart/data build",
-    "build:react": "yarn workspace @emoji-mart/react build",
-    "build:website": "yarn workspace @emoji-mart/website build",
+    "dev": "yarn workspace @katherineheadshall/emoji-mart-website dev",
+    "build": "yarn workspace @katherineheadshall/emoji-mart build",
+    "build:data": "yarn workspace @katherineheadshall/emoji-mart-data build",
+    "build:react": "yarn workspace @katherineheadshall/emoji-mart-react build",
+    "build:website": "yarn workspace @katherineheadshall/emoji-mart-website build",
     "check:types": "tsc",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
@@ -38,5 +38,6 @@
   },
   "engines": {
     "yarn": ">=1"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
