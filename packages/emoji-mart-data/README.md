@@ -1,3 +1,3 @@
-# `@emoji-mart/data`
+# `@katherineheadshall/emoji-mart-data`
 
-This package contains the data used by [EmojiMart](https://missiveapp.com/open/emoji-mart).
+This package contains the data used by [EmojiMart](https://github.com/katherineheadshall/emoji-mart).
